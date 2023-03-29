@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="screen">
+            <div class="lastOperation"></div>
+            <div class="currentOperation"></div>
+        </div>
+
+        <div class="button-section">
+            <div class="big-buttons">
+                <button class="clear-button">CLEAR</button>
+                <button class="delete-button">DELETE</button>
+            </div>
+
+            <div class="other-buttons">
+                <div class="first-row">
+                    <button class="operation-button numBtn 7button" data-number>7</button>
+                    <button class="operation-button numBtn 8button" data-number>8</button>
+                    <button class="operation-button numBtn 9button" data-number>9</button>
+                    <button class="operation-button divide-button" data-operator>÷</button>
+                </div>
+
+                <div class="second-row">
+                    <button class="operation-button numBtn 4button" data-number>4</button>
+                    <button class="operation-button numBtn 5button" data-number>5</button>
+                    <button class="operation-button numBtn 6button" data-number>6</button>
+                    <button class="operation-button multiply-button" data-operator>×</button>
+                </div>
+
+                <div class="third-row">
+                    <button class="operation-button numBtn 1button" data-number >1</button>
+                    <button class="operation-button numBtn 2button" data-number>2</button>
+                    <button class="operation-button numBtn 3button" data-number>3</button>
+                    <button class="operation-button substract-button" data-operator>-</button>
+                </div>
+
+                <div class="fourth-row">
+                    <button class="operation-button decimal-button">.</button>
+                    <button class="operation-button numBtn" data-operator>0</button>
+                    <button class="operation-button equal-button">=</button>
+                    <button class="operation-button add-button" data-operator>+</button>
+                </div>
+            </div>
+            
+        </div>
+
+
+
+    </div>
+
+    <footer class="footer" id="footer"> 
+        <a href="https://github.com/popalex11">popalex11 </a>
+        © 2023
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

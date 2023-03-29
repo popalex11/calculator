@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: fit-content;
+    min-height: 100vh;
+    align-items: center;
+}
+
+html {
+    min-height: 100%;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.calculator {
+    margin-top: 200px;
+    background-color: gray;
+    width: 550px;
+    height:700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: solid;
+    border-radius: 20px;
+}
+
+.screen {
+    width:450px;
+    height: 200px;
+    background-color: whitesmoke;
+    margin-top: 15px;
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+    font-size: 40px;
+    font-weight: 530;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    font-size: 60px;
+    border: solid;
+    border-radius: 15px;
+}
+
+.clear-button,
+.delete-button {
+    width: 250px;
+}
+
+.operation-button {
+    width:123px;
+}
+
+.button-section{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.other-buttons{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.clear-button{
+    background-color: rgba(157, 179, 199, 0.842);
+}
+
+.delete-button {
+    background-color: rgba(145, 69, 69, 0.788);
+}
+
+.numBtn {
+    background-color: rgb(190, 198, 206);
+}
+
+.operation-button:hover {
+    background-color: rgb(132, 160, 187);
+}
+
+.numBtn:hover {
+    background-color: rgb(136, 141, 145);
+}
+
+.delete-button:hover {
+    background-color: brown;
+}
+
+.clear-button:hover{
+    background-color: rgb(173, 206, 235);
+}
